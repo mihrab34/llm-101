@@ -7,3 +7,9 @@ coverage/
 .DS_Store
 .env.local
 env/
+pycache/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.sqlite3
