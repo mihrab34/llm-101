@@ -6,7 +6,7 @@
 A project utilizing the Groq API to interact with various open source large language models (LLMs).
 
 ## Description
-This project leverages the Groq API to generate responses to user queries using a selection of pre-trained LLMs. It includes a simple script that demonstrates the core functionality.
+This project leverages the Groq API to generate responses to user queries using a selection of pre-trained LLMs. It includes a simple API that demonstrates the core functionality.
 
 ## Sample API response
 
@@ -15,7 +15,6 @@ This project leverages the Groq API to generate responses to user queries using 
 ## Features
 - Seamless integration with Groq API
 - Support for multiple LLM models
-- Simple query-response interface
 - Easy-to-use script implementation
 
 ## Requirements
@@ -30,10 +29,11 @@ This project leverages the Groq API to generate responses to user queries using 
 pip install -r requirements.txt
 ```
 2. Set the `GROQ_API_KEY` environment variable using a `.env` file or your preferred method.
-3. Run the script:
+3. Run the server:
 ```bash
-python main.py
+uvicorn app:app --reload
 ```
+4. Open swagger UI: http://127.0.0.1:8000/docs
 
 ## Models
 The project currently supports the following LLMs:
