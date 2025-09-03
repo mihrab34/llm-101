@@ -8,6 +8,10 @@ A project utilizing the Groq API to interact with various open source large lang
 ## Description
 This project leverages the Groq API to generate responses to user queries using a selection of pre-trained LLMs. It includes a simple script that demonstrates the core functionality.
 
+## Sample API response
+
+<img width="975" height="738" alt="Screenshot 2025-09-03 at 11 40 34 PM" src="https://github.com/user-attachments/assets/4d83c931-5139-41f9-9b21-d49795c504c4" />
+
 ## Features
 - Seamless integration with Groq API
 - Support for multiple LLM models
